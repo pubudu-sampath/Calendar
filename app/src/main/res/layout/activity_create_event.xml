@@ -27,7 +27,7 @@
         app:layout_constraintStart_toEndOf="@+id/startTimeInput" />
 
     <EditText
-        android:id="@+id/titleInput"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
@@ -47,9 +47,10 @@
         android:layout_marginTop="6dp"
         android:ems="10"
         android:hint="Date"
+        android:focusableInTouchMode="false"
         android:inputType="date"
-        app:layout_constraintStart_toStartOf="@+id/titleInput"
-        app:layout_constraintTop_toBottomOf="@+id/titleInput" />
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <EditText
         android:id="@+id/startTimeInput"
@@ -59,6 +60,7 @@
         android:layout_marginEnd="23dp"
         android:ems="10"
         android:hint="Start Time"
+        android:focusableInTouchMode="false"
         android:inputType="time"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
@@ -73,6 +75,7 @@
         android:layout_marginBottom="150dp"
         android:ems="10"
         android:hint="End Time"
+        android:focusableInTouchMode="false"
         android:inputType="time"
         app:layout_constraintBottom_toTopOf="@+id/createEventButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +83,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/noteInput"
+        android:id="@+id/note"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="21dp"
@@ -97,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="241dp"
-        android:text="Create Event"
+        android:text="Created Event"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/endTimeInput" />
