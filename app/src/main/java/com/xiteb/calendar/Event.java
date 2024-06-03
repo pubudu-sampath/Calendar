@@ -8,6 +8,9 @@ public class Event {
     private String startTime;
     private String endTime;
 
+
+    public Event() {}
+
     public Event(String title, String note, String date, String startTime, String endTime) {
         this.title = title;
         this.note = note;

@@ -35,6 +35,8 @@
             android:name=".CreateEvent"
             android:exported="false">
         </activity>
+        <activity android:name=".DisplayEvent"
+            android:exported="false"></activity>
 
 
     </application>

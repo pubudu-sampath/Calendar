@@ -26,11 +26,11 @@ import java.util.List;
 
 public class CreateEvent extends AppCompatActivity {
 
-     private String titleInput;
-     private String dateInput;
-     private String startTimeInput;
-     private String endTimeInput;
-     private String noteInput;
+    private String titleInput;
+    private String dateInput;
+    private String startTimeInput;
+    private String endTimeInput;
+    private String noteInput;
     private ActivityCreateEventBinding binding;
     private FirebaseDatabase db;
     private DatabaseReference reference;
