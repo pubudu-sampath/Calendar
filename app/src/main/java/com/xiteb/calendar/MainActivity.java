@@ -34,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button savedEvents = findViewById(R.id.buttonHolidays);
+
+        savedEvents.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1= new Intent(MainActivity.this, DisplayEvent.class);
+                startActivity(intent1);
+            }
+        });
+
     }
 }
 
